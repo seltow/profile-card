@@ -1,0 +1,81 @@
+body{
+  background-color: teal;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
+
+
+.woman{
+  padding-top: 1em;
+  /* width: 70%; */
+}
+
+
+.appStyling{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform:  translate(-50%, -50%);
+  font-size: 25px;
+  background-color: white;
+  width: 400px;
+  /* height: 500px; */
+
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 0%;
+
+}
+
+.info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+  
+  .btns{
+    text-align: center;
+  }
+
+  .btns button{
+    padding: 10px 15px;
+    border-radius: 10%;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  .btns button:hover{
+    background-color: rgb(137,221,220);
+    color: whitesmoke;
+  }
+
+  p{
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .likeBtn {
+    border: none;
+    background-color: white;
+  }
+
+  a{
+    margin-left: 170px;
+  }
+
+  @media screen and (min-width: 400px){
+
+  .appStyling{
+    width:400px;
+  }
+}
+  
